@@ -1,0 +1,43 @@
+<!--Esse index serve para a outra parte do cadastre-se, ele serve para a pessoa se registrar-->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeBooks_Registre-se</title>
+    <link rel="icon"  href="assets/logo.png"/>
+    <link rel="stylesheet" href="styles/styleMenu.css">
+   
+</head>
+<body>
+    
+    <!--Criando a caixa-->
+    <div class= "box">
+        
+        <span class="boordeLine"></span>
+        <!--formulario para se registrar-->
+        <form >
+          <h2>Cadastre-se</h2>
+          <div class="inputBox">
+            <input type="text" required="required">
+            <span> Digite seu E-mail</span>
+            <i></i>
+          </div>
+          <div class="inputBox">
+            <input type="password" required="required">
+            <span>Crie uma senha</span>
+            <i></i>
+          </div>
+          <!--Se a pessoa quiser voltar a pagina do "entrar", e aqui que colocamos o link-->
+          <div class="Links">
+            <a href="home.html">Voltar para Home</a>
+          </div>
+          <!--botao-->
+          <input type="submit" value="Login">
+        </form>
+      </div>
+
+
+</body>
+</html>
